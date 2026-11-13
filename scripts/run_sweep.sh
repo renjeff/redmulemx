@@ -1,7 +1,7 @@
 #!/bin/bash
 # Verification sweep for fill_stall_q fix.
 # Uses exact command sequence from build_environment.md.
-# Run from repo root: bash scripts/run_sweep.sh 2>&1 | tee sweep_results.txt
+# Run from repo root: bash scripts/run_sweep.sh 2>&1 | tee results/sweeps/sweep_results.txt
 
 set -e
 cd "$(dirname "$0")/.."
